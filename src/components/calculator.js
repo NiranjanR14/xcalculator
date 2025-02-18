@@ -25,7 +25,7 @@ const Calculator = () => {
     return (
         <div className="calculator">
             <h1>React Calculator</h1>
-            <div className="display">{expression}</div>
+            <input type='text' className="display" value={expression} readOnly />
             <div>{answer}</div>
             <div className="buttons">
                 {['7', '8', '9', '+'].map((value) => (
