@@ -18,7 +18,7 @@ const Calculator = () => {
         try {
             setAnswer(eval(expression).toString());
         } catch {
-            setExpression('Error');
+            setAnswer('Error');
         }
     };
 
